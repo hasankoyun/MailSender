@@ -16,6 +16,7 @@ namespace MailSender
         {
             try
             {
+                //test mesaj
                 lblError.Text = "";
                 MailMessage mail = new MailMessage();
                 mail.From = new MailAddress(txtFromMailAdress.Text);
